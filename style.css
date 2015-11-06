@@ -1,0 +1,220 @@
+﻿body {
+    background-image:url("images/BG.jpg");
+    background-repeat:repeat;
+    direction:rtl;
+    
+}
+ul
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+line-height: 34px;
+}
+.contactbox
+{
+    text-align: center;
+font-size: 21px;
+}
+.contactinfo
+{
+}
+.facetxt a 
+{
+    text-decoration:none;
+    
+    color: white;
+}
+.face
+{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 27px;
+    height: 50px;
+    background-color: #B40B22;
+    width: 239px;
+    float: left;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 46px;
+    font-weight: bold;
+}
+.facetxt
+{
+}
+.btndiv
+{
+    text-align: left;
+}
+#btnB
+{
+    cursor: pointer;
+}
+
+
+.container {
+margin-top: 15px;
+max-width: 920px;
+
+}
+.container .jumbotron {
+
+box-shadow: 3px 3px 18px 0px rgba(191,166,191,1);
+border-radius: 39px;
+
+
+
+padding-right: 20px;
+
+padding-left: 20px;
+
+
+
+padding-top: 0;
+
+min-height: 600px;
+
+}
+
+.txtbox{
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.left{
+}
+.txt{
+    
+
+}
+.tri{
+       width: 0; 
+   
+       height: 0;
+   
+       border-top: 15px solid #FFF;
+   
+       border-left: 10px solid rgba(0, 0, 0, 0); 
+   
+       border-right: 10px solid rgba(0, 0, 0, 0); 
+       margin-bottom: 4px;
+       display: inline-block;
+}
+.formtxt{
+    display:block;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+
+#down-triangle { 
+
+}
+
+
+.logo{
+    margin-top: -64px;
+
+    margin-right: -291px;
+}
+.logo img{
+
+}
+
+ul li  {
+    font-size: 17px;
+
+    line-height: 26px;
+}
+ul li img {
+    margin-left: 12px;
+
+}
+.mylable{
+    font-size: 15px;
+
+    float: right;
+    margin-right: 16px;
+}
+.formbox{
+    background-color: #B40B22;
+
+    padding: 20px;
+    color: white;
+    border-radius: 17px;
+    box-shadow: 5px 4px 20px 0px #8F468F;
+    position: relative;
+    bottom: -107px;
+}
+.text1{
+    font-size: 18px;
+
+    line-height: 29px;
+    display: block;
+    font-weight: bold;
+}
+.maintxt{
+    font-size: 15px;
+
+    display: block;
+    line-height: 37px;
+}
+
+
+
+
+
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+    .logo{
+    margin-top: -64px;
+
+    margin-right: -291px;
+}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+    .txtbox {
+
+    margin-top: 150px;
+
+}
+    .logo{
+    margin-top: -64px;
+
+    margin-right: -291px;
+}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+        .txtbox {
+
+    margin-top: 150px;
+
+}
+        .logo{
+    margin-top: -64px;
+
+    margin-right: -291px;
+}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .logo{
+    margin-top: -64px;
+    margin-right: -291px;
+}
+}
